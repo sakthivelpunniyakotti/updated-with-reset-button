@@ -1,5 +1,5 @@
 //server
-let serverUrl="ws://"+document.location.hostname+":3000"
+let serverUrl="wss://"+document.location.hostname+":3000"
 let client=new WebSocket(serverUrl);
 
 //DOM ELEMENTS

@@ -11,7 +11,7 @@ let runLoop=0;
 let proceed=0;
 let bidholder="";
 let delIndex=undefined;
-Const PORT=process.env.PORT || 3000
+const PORT=process.env.PORT || 3000
 
 
 wss.on("connection",(ws)=>{

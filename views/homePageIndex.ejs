@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/homePageStyle.css">
+</head>
+<body>
+   <div class="main-container">
+    <div class="title-header">
+        <div class="header">
+            <div class="icon"><img src="/image/original-logo.jpg" alt="logo" id="logo">
+                <p id="logo-name"> AnchaneyarChit</p>
+            </div>
+            <div class="menu-icons"></div>
+            <div class="page-info">
+                <div class="animation-effect">
+               <div class="holder-container">
+                <div id="holder"><p id="reset">Reset</p></div>
+                <div id="hamburger-menu"><img id="hamburger-menu-img" src="/image/hamburger-menu.jpg" alt="hamburger-menu" srcset=""></div>
+               </div>
+               <div class="menu-thread-container">
+                <div class="thread-box">
+                    <div class="thread-container1">
+                        <div class="thread1"></div>
+                    </div>
+                    <div class="thread-container2">
+                        <div class="thread2"></div>
+                    </div>
+                    <div class="thread-container1">
+                        <div class="thread1"></div>
+                    </div>
+                    <div class="thread-container2">
+                        <div class="thread2"></div>
+                    </div>
+                </div>
+                <div class="menu-box">
+                    <div class="menu-container-1">
+                        <div class="menu1"><a href="#admin-info-box" id="admin-link"><img src="/image/administrator.jpg" alt="admin" id="admin" srcset="" ></a></div>
+                    </div>
+                    <div class="menu-container-2">
+                        <div class="menu2"><a href="#calculator-box" id="calculator-link"><img src="/image/calculator-3.jpg" alt="calculator" id="calculator" srcset=""></a></div>
+                    </div>
+                    <div class="menu-container-1">
+                        <div class="menu1"><a href="#admin-info-box"><img src="/image/contact-us.jpg" alt="contact" id="contact" srcset=""></a></div>
+                    </div>
+                    <div class="menu-container-2">
+                        <div class="menu2"><a href="#dev"><img src="/image/dev.jpg" alt="about" id="about" id="about" srcset=""></a></div>
+                    </div>
+
+                </div>
+               </div>
+
+                </div>
+                <!-- <img src="/image/hamburger-menu.jpg" alt="hamburger-menu" id="hamburger-menu" srcset=""> -->
+             <!-- <div id="side-menu">
+                <img src="/image/admin.jpg" alt="admin"  id="admin-logo" class="side-menu-logo" srcset="">
+                <img src="/image/calculator-1.jpg" alt="calculator"  id="calculator-logo" class="side-menu-logo" srcset="">
+                <img src="/image/admin.jpg" alt="admin"  id="admin-logo"srcset="" class="side-menu-logo">
+          start   </div> --> 
+             <!-- <div class="dropping-menu-container">
+                <div class="holder-container">
+                    <div id="holder"></div>
+                    <div id="menu"><img src="/image/hamburger-menu.jpg" alt="" id="hamburger-menu-holder" srcset=""></div>
+                </div>
+                <div class="menu-thread-container">
+                    <div class="thread-container">
+                        <div class="thread-box">
+                            <div class="col">
+                                <div class="thread" id="thread"></div>
+                            </div>
+                            <div class="col2">
+                                <div class="thread2" id="thread2"></div>
+                            </div>
+                            <div class="col">
+                                <div class="thread" id="thread"></div>
+                            </div>
+                            <div class="col2">
+                                <div class="thread2" id="thread2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-container">
+                        <div class="menu-col">
+                            <div class="menu" ><img src="/public/image/mail.jpg" alt="" srcset="" id="mail"></div>
+                        </div>
+                        <div class="menu-col2">
+                            <div class="menu2" ><img src="/public/image/admin.jpg" alt="" srcset="" id="admin"></div>
+                        </div>
+                        <div class="menu-col">
+                            <div class="menu"><img src="/public/image/calculator-2.jpg" alt="" srcset="" id="calculator"></div>
+                        </div>
+                        <div class="menu-col2">
+                            <div class="menu2"><img src="/public/image/contact-2.jpg" alt="" srcset="" id="contact"></div>
+                        </div>
+                    </div>
+                </div>
+               </div> -->
+                <!--  <ul id="side-menu">
+                <li class="items">Admins</li>
+                <li class="items">calculator</li>
+                <li class="items">Support</li>
+                <li class="items">About</li>
+         end   </ul> -->
+
+    </div>
+        </div>
+    </div>
+   </div>
+   
+   <div class="amt-container">
+    <div class="final-amt-header">
+        <div class="bit-amt"><p class="layer "> IND PAY</p><p id="individual-pay" class="amt">on process</p></div>
+        <div class="current-amt"><p class="layer ">CUR AMT</p> <p id="cur-amt" class="amt">on process</p></div>
+        <div class="bid-holder-name"><p class="layer ">NAME</p> <p id="name" class="amt">on process</p></div>
+    </div>
+   </div>
+   
+   <div class="coating-table">
+      <div class="coating-amt"></div>
+   </div>
+   <div class="content">
+    <div class="chat-box">
+        <div class="text-content">
+            <button class="bid" id="500" value="500">500</button>
+            <div class="amount">
+                <button id="send" value="send">Join</button>
+             <div class="confirmation-msg" id="confirmation-box">
+                <!-- <button id="confirmation-cancel">X</button> -->
+                 <p id="msg">
+                  <p id="senderName"></p> your entered amount is <p id="entered-amt"></p> 
+                </p>
+                <input type="text"   placeholder="Enter your password" id="password-check">
+                <button id="send-password"><p id="password-para">Send</p></button>
+            </div>
+                <input type="text" value="2000" placeholder="Enter amount here" id="input-amount" readonly>
+                 <button id="cancel-button" value="x">X</button>
+            </div>
+            <button class="bid" id="1000" value="1000">1000</button>
+        </div>
+    </div>
+</div>
+<div class="box-1">
+    <div class="calculator" id="calculator-box">
+        <div class="outer-calsi" id="outer-layer">
+          <div class="inner-calsi">
+            <div class="upper-part">
+                <div class="semi-circle" id="calsi-center">
+                    <div class="full-circle"></div>
+                    <div class="full-circle"></div>
+                    <div class="full-circle"></div>
+                </div>
+            </div>
+            <div class="lower-part" id="outer-part">
+                <div class="display" id="answer">
+                    <p id="result"></p>
+                </div>
+                <div class="keypad">
+                    <div class="clear" id="clear">C</div>
+                    <div class="color" id="color"><input type="color" id="pick-one" value="#c71585"></div>
+                    <div class="edit" id="edit" >X</div>
+                    <div class="keys">/</div>
+                    <div class="keys">7</div>
+                    <div class="keys">8</div>
+                    <div class="keys">9</div>
+                    <div class="keys">*</div>
+                    <div class="keys">4</div>
+                    <div class="keys">5</div>
+                    <div class="keys">6</div>
+                    <div class="keys">-</div>
+                    <div class="keys">1</div>
+                    <div class="keys">2</div>
+                    <div class="keys">3</div>
+                    <div class="keys">+</div>
+                    <div class="keys">0</div>
+                    <div class="keys">.</div>
+                    <div class="keys">_</div>
+                    <div class="answer" id="equals">=</div>
+                </div>
+            </div>
+          </div>
+    </div></div>
+    <div class="admin-info" id="admin-info-box">
+        <div class="admin-1">
+            <div class="profile"><img src="/image/new-female-administrator.jpg" alt="" class="sr"></div>
+            <div class="info">
+                <p class="founder-name">K. Mullai</p>
+                <p class="founder">Founder and Org</p>
+
+            </div>
+        </div>
+        <div class="admin-2">
+            <div class="profile"><img src="/image/male-administrator.jpg" alt="" srcset=""></div>
+            <div class="info">
+                <p class="founder-name">K. Punniyakotti</p>
+                <p class="ceo">Founder and CEO</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tech-support" id="dev">
+    <div id="about" class="about"><h1>About</h1></div>
+    <div class="createdBy">created By...</div>
+    <div class="dev-name-container"><p id="dev-name">Punniyakotti Sakthivel  </p></div>
+    <div class="dev-info"><p id="dev-info">Myself Sakthivel, currently pursuing my degree. Having skills in HTML5, CSS3, Javascript,ws.js and express.js</p></div>
+    <div class="ad-container"><p id="ad">Want static/dynamic pages for your startup or already on going business?</p></div>
+    <div class="contact-container"><h3>Contact me on:</h2>
+        <div class="contacts"><a href="https://www.linkedin.com/in/sakthi-vel-814763210" id="linked-in -link"><img src="/image/linked-in.jpg" alt="linked-in" id="linked-in"></a>
+          <a href=" https://www.instagram.com/invites/contact/?i=lv6ct4zk046x&utm_content=q0a3bk0 " id="insta-link"><img src="/image/instagram.jpg" alt="instagram" id="insta"></a>  
+           <a href="https://www.youtube.com/@literallynothing6747" id="you-tube-link"><img src="/image/youtube.jpg" alt="youtube" id="youtube"></a> 
+           <a href="https://www.facebook.com/profile.php?id=100035252620074&mibextid=ZbWKwL" id="fb-link"><img src="/image/fb.jpg" alt="fb" id="fb"></a> 
+           <a href="https://twitter.com/role_x2611?t=I5RIw2o_fhWr_7dN0utixg&s=09" id="twitter-link"><img src="/image/twitter.jpg" alt="twitter" id="twitter"></a> 
+           <a href="mailto:sakthivelpunniyakotti@gmail.com"><img src="/image/mail-2.jpg" alt="email" id="email"></a> 
+        </div>
+    </div>
+</div>
+ <script src="/homePageScript.js"></script>
+</body>
+</html>

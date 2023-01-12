@@ -11,6 +11,7 @@ let runLoop=0;
 let proceed=0;
 let bidholder="";
 let delIndex=undefined;
+Const PORT=process.env.PORT || 3000
 
 
 wss.on("connection",(ws)=>{
@@ -144,7 +145,7 @@ app.get("/homePageIndex",(req,res)=>{
 
 
 
-server1.listen(3000,()=>{
+server1.listen(PORT,()=>{
   console.log("connected by express server")
 })
 
